@@ -1,1 +1,0 @@
-# haradanaoki.github.io
