@@ -4,7 +4,7 @@ window.onload = function(){
   var output = document.getElementById('output');
 
   // app_idは自分のものに書き換えてください
-  var milkcocoa = new MilkCocoa("app_id.mlkcca.com");
+  var milkcocoa = new MilkCocoa("noteisjuf7rd.mlkcca.com");
   var ds = milkcocoa.dataStore('gravity');
 
   window.addEventListener('devicemotion', function(e){

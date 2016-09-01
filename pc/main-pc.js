@@ -3,7 +3,7 @@ window.onload = function(){
   var image = document.getElementById('image');
 
   // app_idは自分のものに書き換えてください
-  var milkcocoa = new MilkCocoa("app_id.mlkcca.com");
+  var milkcocoa = new MilkCocoa("noteisjuf7rd.mlkcca.com");
   var ds = milkcocoa.dataStore('gravity');
 
   ds.on('send', changeViewFromSentMode);
