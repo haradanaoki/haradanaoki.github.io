@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
+  <meta charset="utf-8">
   <title>gmapsサンプル</title>
   <style>
-        @charset "utf-8";
-        #map {
-            height: 400px;
-        }
-      </style>
-      <script src="//maps.google.com/maps/api/js?sensor=true"></script>
-      <script src="//raw.githubusercontent.com/HPNeo/gmaps/master/gmaps.js"></script>
-      <script>
-        window.onload = function(){
-            var map = new GMaps({
-                div: "#map",
-                lat: 35.710285,
-                lng: 139.77714,
-                zoom: 15,
-            });
-        };
-      </script>
-    </head>
-    <body>
-    <div id="map"></div>
-    </body>
-    </html>
+    @charset "utf-8";
+    #map {
+      height: 400px;
+    }
+  </style>
+  <script src="http://maps.google.com/maps/api/js?sensor=true&.js"></script>
+  <script src="https://rawgit.com/HPNeo/gmaps/master/gmaps.js"></script>
+  <script>
+    window.onload = function(){
+      var map = new GMaps({
+        div: "#map",
+        lat: 35.710285,
+        lng: 139.77714,
+        zoom: 15,
+      });
+    };
+  </script>
+</head>
+<body>
+  <div id="map"></div>
+</body>
+</html>
